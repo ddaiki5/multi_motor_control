@@ -4,4 +4,4 @@ Arduinoでモーターを複数個(ここでは16台を想定)独立に操作し
 
 ## 回路図
 
-![circuit](/etc/cirkit.svg)
+![circuit](/etc/cirkit.png)
