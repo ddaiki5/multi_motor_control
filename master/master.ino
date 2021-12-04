@@ -5,8 +5,8 @@ SoftwareSerial mySerial(2, 3); // RX, TX
 
 void setup(){
   pinMode(LED, OUTPUT); //debug用
-  Serial.begin(9600); //シリアル通信の設定(子機と同じ番号で)
-  mySerial.begin(9600);
+  Serial.begin(9600); //シリアル通信の設定
+  mySerial.begin(9600); //ソフトウェアシリアル通信の設定
 }
 
 char c;
